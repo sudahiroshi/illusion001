@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    position: relative;
+}
+
+.move {
+    position: absolute;
+    transition: all 10s linear;
+}
+
+#obj1 {
+    left: 10px;
+    top: 100px;
+}
+
+#obj2 {
+    left: 10px;
+    top: 200px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="illusion.css">
+    <script src="illusion001.js"></script>
+    <title>Stepping Feet Illusion</title>
+</head>
+
+<body>
+    <div id="content" width=1000px height=320px>
+        <svg width="1000" height="320"  id="background" xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+                <pattern id="zebra" x="0" y="0" width="30" height="1" patternUnits="userSpaceOnUse"
+                    patternContentUnits="userSpaceOnUse">
+                    <rect x="0" y="0" width="15" height="1" fill="#000000" />
+                    <rect x="15" y="0" width="20" height="1" fill="#ffffff" />
+                </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#zebra)" />
+        </svg>
+        <img src="yellow.png" id="obj1" class="move">
+        <img src="blue.png" id="obj2" class="move">
+    </div>
+
+    <div id="operation">
+        <input type="range" id="opacity" step=10 value=100>
+        <span id="output">100</span>%
+    </div>
+
+
+</body>
+
+</html>
